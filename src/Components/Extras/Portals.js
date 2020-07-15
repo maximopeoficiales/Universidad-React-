@@ -53,8 +53,10 @@ class App extends Component {
       <div>
         <button onClick={this.mostrar}>Mostrar</button>
         <PortalModal visible={this.state.visible}>
+          {/* this.prop.children */}
           Hola desde un PortalModal {this.state.num}
           <button onClick={this.cerrar}>Cerrar</button>
+          {/*---- this.prop.children ---*/}
         </PortalModal>
       </div>
     );

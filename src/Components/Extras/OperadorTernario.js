@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React/* , { Component }  */from "react";
 const Saludo = (props) => (
   /* si existe props.name muestralo */
   <div>
