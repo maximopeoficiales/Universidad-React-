@@ -145,7 +145,7 @@ const Image = ({ image }) => {
           src={image.author.avatar}
           alt="Avatar"
           loading="lazy"
-          className={style["avatar"]}
+            className={style["avatar"]}
         />
         <div>
           <h4> {image.author.name}</h4>

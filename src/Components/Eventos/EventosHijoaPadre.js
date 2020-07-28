@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./css/global.css";
 /* asi es como un hijo ejecuta un evento atravez de un prop */
 class Hijo extends Component {
-     /* cuando se ejecute cambiara el estado de la prop.name */
+  /* cuando se ejecute cambiara el estado de la prop.name */
   manejadorClick = () => {
     this.props.onSaluda("Ninja en React 🔥");
   };
@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="box red">
-           {/* muestro al hijo y este envia un evento perzonalizado */}
+        {/* muestro al hijo y este envia un evento perzonalizado */}
         <Hijo onSaluda={this.manejador} />
         <h1>Nombre: {this.state.name}</h1>
       </div>
